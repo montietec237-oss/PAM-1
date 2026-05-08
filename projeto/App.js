@@ -13,10 +13,10 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator></Stack.Navigator>
-        <Stack.Screen name="TelaInicial" component={TelaInicial} />
-        <Stack.Screen name="TelaTriologia1" component={TelaTriologia1} />
-        <Stack.Screen name="TelaTriologia2" component={TelaTriologia2} />
-        <Stack.Screen name="TelaTriologia3" component={TelaTriologia3} />
+        <Stack.Screen name="Tela Inicial" component={TelaInicial} />
+        <Stack.Screen name="Tela Triologia 1" component={TelaTriologia1} />
+        <Stack.Screen name="Tela Triologia 2" component={TelaTriologia2} />
+        <Stack.Screen name="Tela Triologia 3" component={TelaTriologia3} />
       </NavigationContainer>
   );
 }

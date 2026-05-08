@@ -1,15 +1,4 @@
 import React from 'react';
-import { text } from 'react-native';
-
-export default function TelaInicial() {
-    return (
-        <text>Tela Inicial</text>
-
-    );
-
-}
-
-import React from 'react';
 import { View, Button, Image, Text } from 'react-native';
 import logo from '../../assets/logo.jpg';
 import styles from '../styles';
@@ -24,6 +13,10 @@ export default function TelaInicial( props ) {
 
             <Text style={styles.texto}>Para saber os filmes mais famosos, clique no botão abaixo para ver:</Text>
 
-        </View>
-    );
+
+            <Button title="Ver 1ª Filme" onPress = { () => props.navigation.navigate("Filme 1") } color="#372d00" />
+            <Button title="Ver 2ª Filme" onPress = { () => props.navigation.navigate("Filme 2") } color="#372d00" />
+            <Button title="Ver 3ª Filme" onPress = { () => props.navigation.navigate("Filme 3") } color="#372d00" />
+    </View>
+  )
 }
