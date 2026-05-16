@@ -12,11 +12,31 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator></Stack.Navigator>
-        <Stack.Screen name="Tela Inicial" component={TelaInicial} />
-        <Stack.Screen name="Tela Triologia 1" component={TelaTriologia1} />
-        <Stack.Screen name="Tela Triologia 2" component={TelaTriologia2} />
-        <Stack.Screen name="Tela Triologia 3" component={TelaTriologia3} />
-      </NavigationContainer>
+
+      <Stack.Navigator>
+
+        <Stack.Screen
+          name="Tela Inicial"
+          component={TelaInicial}
+        />
+
+        <Stack.Screen
+          name="Tela Triologia 1"
+          component={TelaTriologia1}
+        />
+
+        <Stack.Screen
+          name="Tela Triologia 2"
+          component={TelaTriologia2}
+        />
+
+        <Stack.Screen
+          name="Tela Triologia 3"
+          component={TelaTriologia3}
+        />
+
+      </Stack.Navigator>
+
+    </NavigationContainer>
   );
 }
