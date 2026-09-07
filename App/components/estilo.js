@@ -4,81 +4,87 @@ const estilo = StyleSheet.create({
 
     container: {
         flex: 1,
-        padding: 20,
-        justifyContent: 'center',
+        paddingHorizontal: 20,
+        paddingVertical: 15,
         alignItems: 'center',
-        backgroundColor: '#fff'
+        backgroundColor: '#ffffff'
     },
 
     titulo: {
-        fontSize: 30,
+        fontSize: 28,
         fontWeight: 'bold',
         color: '#b71c1c',
         marginBottom: 5
     },
 
     rodada: {
-        fontSize: 18,
+        fontSize: 16,
         color: '#555',
-        marginBottom: 20
+        marginBottom: 12
     },
 
     texto: {
         fontSize: 16,
         color: '#333',
-        margin: 10
+        marginVertical: 8,
+        textAlign: 'center'
     },
 
     numeroBox: {
-        width: 150,
-        height: 150,
-        borderRadius: 75,
-        backgroundColor: '#b71c1c',
+        width: 130,
+        height: 130,
+        borderRadius: 65,
+        backgroundColor: '#c62828',
         justifyContent: 'center',
         alignItems: 'center',
-        marginBottom: 20
+        marginVertical: 10
     },
 
     numero: {
-        fontSize: 50,
+        fontSize: 48,
         fontWeight: 'bold',
-        color: '#fff'
+        color: '#ffffff'
     },
 
     entrada: {
-        width: 180,
-        height: 50,
+        width: 175,
+        height: 45,
         borderWidth: 2,
-        borderColor: '#b71c1c',
+        borderColor: '#c62828',
         borderRadius: 10,
         textAlign: 'center',
-        fontSize: 20,
+        fontSize: 18,
         color: '#333',
-        backgroundColor: '#fff',
-        marginBottom: 15
+        backgroundColor: '#ffffff',
+        marginBottom: 8,
+        paddingHorizontal: 10
     },
 
     escolhido: {
-        fontSize: 16,
-        color: '#555',
-        margin: 10
+        fontSize: 15,
+        color: '#666',
+        marginBottom: 10
     },
 
     placar: {
         flexDirection: 'row',
-        margin: 20
+        width: '100%',
+        justifyContent: 'center',
+        marginVertical: 15
     },
 
     card: {
-        padding: 15,
-        margin: 5,
+        width: '45%',
+        paddingVertical: 12,
+        paddingHorizontal: 5,
+        marginHorizontal: 5,
         borderRadius: 10,
         backgroundColor: '#fbe9e7',
         alignItems: 'center'
     },
 
     pontos: {
-        fontSize: 22,
+        fontSize: 21,
         fontWeight: 'bold',
         color: '#b71c1c',
         marginTop: 5
@@ -86,24 +92,28 @@ const estilo = StyleSheet.create({
 
     mensagem: {
         textAlign: 'center',
-        fontSize: 16,
+        fontSize: 15,
         color: '#333',
-        margin: 15
+        marginVertical: 10,
+        paddingHorizontal: 10
     },
 
     final: {
+        width: '90%',
         alignItems: 'center',
-        margin: 15,
+        marginVertical: 10,
         padding: 15,
         borderRadius: 10,
+        borderWidth: 2,
+        borderColor: '#c62828',
         backgroundColor: '#fbe9e7'
     },
 
     finalTitulo: {
-        fontSize: 22,
+        fontSize: 21,
         fontWeight: 'bold',
         color: '#b71c1c',
-        marginBottom: 10
+        marginBottom: 8
     }
 
 });
