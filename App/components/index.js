@@ -133,6 +133,7 @@ const TelaInicial = () => {
                 title="Sortear" 
                 onPress={sortearNumero} 
                 color="#c62828" 
+                disabled={finalizado}
             /> 
  
             <View style={estilo.placar}> 
